@@ -1,3 +1,4 @@
+**#Delivery Analytics Case Study**
 ## Jira → ServiceNow → Snowflake → Tableau
 
 An end-to-end delivery analytics case study that mirrors a real enterprise reporting workflow. Synthetic Jira, ServiceNow, and Clarity (PPM) data flow through a Snowflake-style SQL transformation layer where cycle time, rework, bottlenecks, and quality metrics are defined and modeled before being surfaced through Tableau dashboards and executive reporting.
