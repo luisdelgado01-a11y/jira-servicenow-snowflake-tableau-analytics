@@ -10,6 +10,11 @@ An end-to-end delivery analytics case study that mirrors a real enterprise repor
 **Stack:** Jira · ServiceNow · Clarity (PPM) → Snowflake → SQL → Tableau
 
 **Skills Demonstrated:** Data Modeling · SQL (CTEs, Window Functions, Date Math) · ETL/Transformation · Metric Definition · Changelog-Based Event Analysis · Executive Reporting · Data Governance
+## Live Dashboard
+
+Tableau Public Dashboard:
+
+https://public.tableau.com/app/profile/luis.luis.delgado/viz/DeliveryAnalyticsCaseStudy/Dashboard1
 
 ---
 
