@@ -1,0 +1,5 @@
+clarity_id,project_name,project_key,status,is_priority
+PRJ-100,Mobile Banking Modernization,MOB,Funded,No
+PRJ-101,Auto Quote Rewrite,AUTOQ,Funded,Yes
+PRJ-102,Claims Portal Uplift,CLAIMS,Funded,Yes
+PRJ-103,Internal Tooling,TOOL,Proposed,No

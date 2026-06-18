@@ -1,0 +1,519 @@
+issue_key,field,from_status,to_status,changed_at
+MOB-4801,status,To Do,Staging,2026-04-07T06:15:00Z
+MOB-4801,status,Staging,In Review,2026-04-07T15:15:00Z
+MOB-4801,status,In Review,Staging,2026-04-07T17:15:00Z
+MOB-4801,status,Staging,In Review,2026-04-07T22:15:00Z
+MOB-4801,status,In Review,Done,2026-04-09T13:15:00Z
+MOB-4802,status,To Do,Staging,2026-04-06T14:15:00Z
+MOB-4802,status,Staging,In Review,2026-04-06T22:15:00Z
+MOB-4802,status,In Review,Done,2026-04-09T08:15:00Z
+MOB-4803,status,To Do,Staging,2026-04-07T15:30:00Z
+MOB-4803,status,Staging,In Review,2026-04-07T19:30:00Z
+MOB-4803,status,In Review,Done,2026-04-09T17:30:00Z
+MOB-4804,status,To Do,Staging,2026-04-07T05:00:00Z
+MOB-4804,status,Staging,In Review,2026-04-07T09:00:00Z
+MOB-4804,status,In Review,Done,2026-04-09T18:00:00Z
+MOB-4805,status,To Do,Staging,2026-04-06T13:15:00Z
+MOB-4805,status,Staging,Dismissed,2026-04-06T21:15:00Z
+MOB-4806,status,To Do,Staging,2026-04-07T14:15:00Z
+MOB-4806,status,Staging,In Review,2026-04-07T20:15:00Z
+MOB-4806,status,In Review,Done,2026-04-09T21:15:00Z
+MOB-4807,status,To Do,Staging,2026-04-07T01:45:00Z
+MOB-4807,status,Staging,In Review,2026-04-07T10:45:00Z
+MOB-4807,status,In Review,Done,2026-04-09T17:45:00Z
+AUTOQ-4808,status,Backlog,Staging,2026-04-07T10:45:00Z
+AUTOQ-4808,status,Staging,Code Review,2026-04-07T19:45:00Z
+AUTOQ-4808,status,Code Review,Done,2026-04-09T01:45:00Z
+AUTOQ-4809,status,Backlog,Staging,2026-04-07T20:15:00Z
+AUTOQ-4809,status,Staging,Code Review,2026-04-08T04:15:00Z
+AUTOQ-4809,status,Code Review,Done,2026-04-09T08:15:00Z
+AUTOQ-4810,status,Backlog,Staging,2026-04-07T09:15:00Z
+AUTOQ-4810,status,Staging,Code Review,2026-04-07T19:15:00Z
+AUTOQ-4810,status,Code Review,Done,2026-04-08T16:15:00Z
+AUTOQ-4811,status,Backlog,Staging,2026-04-07T16:00:00Z
+AUTOQ-4811,status,Staging,Code Review,2026-04-08T00:00:00Z
+AUTOQ-4811,status,Code Review,Done,2026-04-09T04:00:00Z
+AUTOQ-4812,status,Backlog,Staging,2026-04-07T23:30:00Z
+AUTOQ-4812,status,Staging,Code Review,2026-04-08T04:30:00Z
+AUTOQ-4812,status,Code Review,Done,2026-04-09T14:30:00Z
+AUTOQ-4813,status,Backlog,Staging,2026-04-07T23:15:00Z
+AUTOQ-4813,status,Staging,Code Review,2026-04-08T05:15:00Z
+AUTOQ-4813,status,Code Review,Done,2026-04-09T17:15:00Z
+AUTOQ-4814,status,Backlog,Staging,2026-04-07T20:00:00Z
+AUTOQ-4814,status,Staging,Code Review,2026-04-08T00:00:00Z
+AUTOQ-4814,status,Code Review,Done,2026-04-09T07:00:00Z
+CLAIMS-4815,status,To Do,Staging,2026-04-06T19:00:00Z
+CLAIMS-4815,status,Staging,In Review,2026-04-07T05:00:00Z
+CLAIMS-4815,status,In Review,Staging,2026-04-07T08:00:00Z
+CLAIMS-4815,status,Staging,In Review,2026-04-07T11:00:00Z
+CLAIMS-4815,status,In Review,Accepted,2026-04-08T22:00:00Z
+CLAIMS-4816,status,To Do,Staging,2026-04-07T18:15:00Z
+CLAIMS-4816,status,Staging,In Review,2026-04-07T23:15:00Z
+CLAIMS-4816,status,In Review,Staging,2026-04-08T03:15:00Z
+CLAIMS-4816,status,Staging,In Review,2026-04-08T08:15:00Z
+CLAIMS-4816,status,In Review,Accepted,2026-04-09T15:15:00Z
+CLAIMS-4817,status,To Do,Staging,2026-04-06T21:15:00Z
+CLAIMS-4817,status,Staging,In Review,2026-04-07T05:15:00Z
+CLAIMS-4817,status,In Review,Accepted,2026-04-08T08:15:00Z
+CLAIMS-4818,status,To Do,Staging,2026-04-07T00:00:00Z
+CLAIMS-4818,status,Staging,In Review,2026-04-07T12:00:00Z
+CLAIMS-4819,status,To Do,Staging,2026-04-07T00:15:00Z
+CLAIMS-4819,status,Staging,In Review,2026-04-07T10:15:00Z
+CLAIMS-4819,status,In Review,Accepted,2026-04-08T21:15:00Z
+CLAIMS-4820,status,To Do,Staging,2026-04-07T18:30:00Z
+CLAIMS-4820,status,Staging,In Review,2026-04-07T22:30:00Z
+CLAIMS-4820,status,In Review,Accepted,2026-04-08T21:30:00Z
+CLAIMS-4821,status,To Do,Staging,2026-04-06T19:15:00Z
+CLAIMS-4821,status,Staging,In Review,2026-04-07T00:15:00Z
+CLAIMS-4821,status,In Review,Accepted,2026-04-08T09:15:00Z
+CLAIMS-4822,status,To Do,Staging,2026-04-06T19:45:00Z
+CLAIMS-4822,status,Staging,In Review,2026-04-07T03:45:00Z
+CLAIMS-4822,status,In Review,Accepted,2026-04-07T23:45:00Z
+MOB-4823,status,To Do,Staging,2026-04-21T17:15:00Z
+MOB-4823,status,Staging,In Review,2026-04-22T03:15:00Z
+MOB-4824,status,To Do,Staging,2026-04-21T19:30:00Z
+MOB-4824,status,Staging,Dismissed,2026-04-22T02:30:00Z
+MOB-4825,status,To Do,Staging,2026-04-20T23:00:00Z
+MOB-4825,status,Staging,In Review,2026-04-21T08:00:00Z
+MOB-4825,status,In Review,Staging,2026-04-21T12:00:00Z
+MOB-4825,status,Staging,In Review,2026-04-21T14:00:00Z
+MOB-4825,status,In Review,Done,2026-04-23T14:00:00Z
+MOB-4826,status,To Do,Staging,2026-04-20T21:00:00Z
+MOB-4826,status,Staging,In Review,2026-04-21T01:00:00Z
+MOB-4826,status,In Review,Done,2026-04-23T03:00:00Z
+MOB-4827,status,To Do,Staging,2026-04-21T06:00:00Z
+MOB-4827,status,Staging,In Review,2026-04-21T14:00:00Z
+MOB-4827,status,In Review,Done,2026-04-24T01:00:00Z
+MOB-4828,status,To Do,Staging,2026-04-21T06:30:00Z
+MOB-4828,status,Staging,In Review,2026-04-21T12:30:00Z
+MOB-4828,status,In Review,Done,2026-04-23T21:30:00Z
+MOB-4829,status,To Do,Staging,2026-04-22T02:00:00Z
+MOB-4829,status,Staging,In Review,2026-04-22T08:00:00Z
+MOB-4829,status,In Review,Done,2026-04-24T07:00:00Z
+MOB-4830,status,To Do,Staging,2026-04-21T06:15:00Z
+MOB-4830,status,Staging,In Review,2026-04-21T14:15:00Z
+MOB-4830,status,In Review,Done,2026-04-23T20:15:00Z
+AUTOQ-4831,status,Backlog,Staging,2026-04-21T04:00:00Z
+AUTOQ-4831,status,Staging,Code Review,2026-04-21T12:00:00Z
+AUTOQ-4831,status,Code Review,Done,2026-04-22T14:00:00Z
+AUTOQ-4832,status,Backlog,Staging,2026-04-21T18:45:00Z
+AUTOQ-4832,status,Staging,Code Review,2026-04-21T23:45:00Z
+AUTOQ-4833,status,Backlog,Staging,2026-04-20T13:30:00Z
+AUTOQ-4833,status,Staging,Code Review,2026-04-20T21:30:00Z
+AUTOQ-4833,status,Code Review,Done,2026-04-22T06:30:00Z
+AUTOQ-4834,status,Backlog,Staging,2026-04-21T21:00:00Z
+AUTOQ-4834,status,Staging,Code Review,2026-04-22T04:00:00Z
+AUTOQ-4834,status,Code Review,Done,2026-04-23T04:00:00Z
+AUTOQ-4835,status,Backlog,Staging,2026-04-21T10:15:00Z
+AUTOQ-4835,status,Staging,Code Review,2026-04-21T20:15:00Z
+AUTOQ-4835,status,Code Review,Done,2026-04-23T05:15:00Z
+AUTOQ-4836,status,Backlog,Staging,2026-04-20T22:15:00Z
+AUTOQ-4836,status,Staging,Code Review,2026-04-21T08:15:00Z
+AUTOQ-4836,status,Code Review,Done,2026-04-22T17:15:00Z
+AUTOQ-4837,status,Backlog,Staging,2026-04-21T13:00:00Z
+AUTOQ-4837,status,Staging,Code Review,2026-04-21T19:00:00Z
+AUTOQ-4837,status,Code Review,Done,2026-04-23T00:00:00Z
+CLAIMS-4838,status,To Do,Staging,2026-04-21T13:30:00Z
+CLAIMS-4838,status,Staging,In Review,2026-04-21T22:30:00Z
+CLAIMS-4839,status,To Do,Staging,2026-04-21T09:00:00Z
+CLAIMS-4839,status,Staging,In Review,2026-04-21T15:00:00Z
+CLAIMS-4840,status,To Do,Staging,2026-04-21T17:30:00Z
+CLAIMS-4840,status,Staging,In Review,2026-04-21T21:30:00Z
+CLAIMS-4840,status,In Review,Accepted,2026-04-23T05:30:00Z
+CLAIMS-4841,status,To Do,Staging,2026-04-20T15:15:00Z
+CLAIMS-4841,status,Staging,In Review,2026-04-20T21:15:00Z
+CLAIMS-4841,status,In Review,Accepted,2026-04-22T03:15:00Z
+CLAIMS-4842,status,To Do,Staging,2026-04-21T23:30:00Z
+CLAIMS-4842,status,Staging,In Review,2026-04-22T05:30:00Z
+CLAIMS-4842,status,In Review,Accepted,2026-04-23T05:30:00Z
+CLAIMS-4843,status,To Do,Staging,2026-04-20T21:30:00Z
+CLAIMS-4843,status,Staging,In Review,2026-04-21T03:30:00Z
+CLAIMS-4843,status,In Review,Accepted,2026-04-22T08:30:00Z
+CLAIMS-4844,status,To Do,Staging,2026-04-21T07:45:00Z
+CLAIMS-4844,status,Staging,In Review,2026-04-21T15:45:00Z
+CLAIMS-4844,status,In Review,Accepted,2026-04-23T02:45:00Z
+CLAIMS-4845,status,To Do,Staging,2026-04-21T19:30:00Z
+CLAIMS-4845,status,Staging,In Review,2026-04-22T04:30:00Z
+CLAIMS-4845,status,In Review,Staging,2026-04-22T08:30:00Z
+CLAIMS-4845,status,Staging,In Review,2026-04-22T11:30:00Z
+CLAIMS-4845,status,In Review,Accepted,2026-04-23T13:30:00Z
+MOB-4846,status,To Do,Staging,2026-05-04T18:45:00Z
+MOB-4846,status,Staging,In Review,2026-05-05T01:45:00Z
+MOB-4847,status,To Do,Staging,2026-05-04T20:00:00Z
+MOB-4847,status,Staging,In Review,2026-05-05T01:00:00Z
+MOB-4847,status,In Review,Staging,2026-05-05T06:00:00Z
+MOB-4847,status,Staging,In Review,2026-05-05T08:00:00Z
+MOB-4847,status,In Review,Done,2026-05-07T06:00:00Z
+MOB-4848,status,To Do,Staging,2026-05-06T00:30:00Z
+MOB-4848,status,Staging,In Review,2026-05-06T08:30:00Z
+MOB-4848,status,In Review,Done,2026-05-08T19:30:00Z
+MOB-4849,status,To Do,Staging,2026-05-05T18:30:00Z
+MOB-4849,status,Staging,In Review,2026-05-06T01:30:00Z
+MOB-4849,status,In Review,Staging,2026-05-06T04:30:00Z
+MOB-4849,status,Staging,In Review,2026-05-06T08:30:00Z
+MOB-4849,status,In Review,Done,2026-05-08T13:30:00Z
+MOB-4850,status,To Do,Staging,2026-05-05T09:00:00Z
+MOB-4850,status,Staging,In Review,2026-05-05T18:00:00Z
+MOB-4850,status,In Review,Done,2026-05-07T23:00:00Z
+MOB-4851,status,To Do,Staging,2026-05-05T10:45:00Z
+MOB-4851,status,Staging,In Review,2026-05-05T17:45:00Z
+MOB-4851,status,In Review,Done,2026-05-07T19:45:00Z
+MOB-4852,status,To Do,Staging,2026-05-05T10:45:00Z
+MOB-4852,status,Staging,In Review,2026-05-05T18:45:00Z
+MOB-4852,status,In Review,Done,2026-05-07T22:45:00Z
+AUTOQ-4853,status,Backlog,Staging,2026-05-05T08:45:00Z
+AUTOQ-4853,status,Staging,Code Review,2026-05-05T16:45:00Z
+AUTOQ-4853,status,Code Review,Staging,2026-05-05T18:45:00Z
+AUTOQ-4853,status,Staging,Code Review,2026-05-05T23:45:00Z
+AUTOQ-4853,status,Code Review,Done,2026-05-06T19:45:00Z
+AUTOQ-4854,status,Backlog,Staging,2026-05-05T17:15:00Z
+AUTOQ-4854,status,Staging,Code Review,2026-05-05T22:15:00Z
+AUTOQ-4854,status,Code Review,Done,2026-05-07T08:15:00Z
+AUTOQ-4855,status,Backlog,Staging,2026-05-05T06:45:00Z
+AUTOQ-4855,status,Staging,Code Review,2026-05-05T10:45:00Z
+AUTOQ-4855,status,Code Review,Staging,2026-05-05T12:45:00Z
+AUTOQ-4855,status,Staging,Code Review,2026-05-05T16:45:00Z
+AUTOQ-4855,status,Code Review,Done,2026-05-06T19:45:00Z
+AUTOQ-4856,status,Backlog,Staging,2026-05-04T12:15:00Z
+AUTOQ-4856,status,Staging,Code Review,2026-05-04T17:15:00Z
+AUTOQ-4856,status,Code Review,Done,2026-05-05T17:15:00Z
+AUTOQ-4857,status,Backlog,Staging,2026-05-05T00:45:00Z
+AUTOQ-4857,status,Staging,Code Review,2026-05-05T08:45:00Z
+AUTOQ-4857,status,Code Review,Staging,2026-05-05T10:45:00Z
+AUTOQ-4857,status,Staging,Code Review,2026-05-05T13:45:00Z
+AUTOQ-4857,status,Code Review,Done,2026-05-06T18:45:00Z
+AUTOQ-4858,status,Backlog,Staging,2026-05-05T23:45:00Z
+AUTOQ-4858,status,Staging,Code Review,2026-05-06T04:45:00Z
+AUTOQ-4859,status,Backlog,Staging,2026-05-04T22:00:00Z
+AUTOQ-4859,status,Staging,Code Review,2026-05-05T04:00:00Z
+AUTOQ-4859,status,Code Review,Staging,2026-05-05T06:00:00Z
+AUTOQ-4859,status,Staging,Code Review,2026-05-05T10:00:00Z
+AUTOQ-4859,status,Code Review,Done,2026-05-06T06:00:00Z
+AUTOQ-4860,status,Backlog,Staging,2026-05-05T18:30:00Z
+AUTOQ-4860,status,Staging,Code Review,2026-05-05T23:30:00Z
+AUTOQ-4860,status,Code Review,Staging,2026-05-06T04:30:00Z
+AUTOQ-4860,status,Staging,Code Review,2026-05-06T07:30:00Z
+AUTOQ-4860,status,Code Review,Done,2026-05-07T19:30:00Z
+AUTOQ-4861,status,Backlog,Staging,2026-05-05T20:45:00Z
+AUTOQ-4861,status,Staging,Code Review,2026-05-06T02:45:00Z
+AUTOQ-4861,status,Code Review,Staging,2026-05-06T06:45:00Z
+AUTOQ-4861,status,Staging,Code Review,2026-05-06T09:45:00Z
+AUTOQ-4861,status,Code Review,Done,2026-05-07T07:45:00Z
+AUTOQ-4862,status,Backlog,Staging,2026-05-05T17:45:00Z
+AUTOQ-4862,status,Staging,Code Review,2026-05-05T22:45:00Z
+AUTOQ-4862,status,Code Review,Staging,2026-05-06T03:45:00Z
+AUTOQ-4862,status,Staging,Code Review,2026-05-06T06:45:00Z
+AUTOQ-4862,status,Code Review,Done,2026-05-07T13:45:00Z
+AUTOQ-4863,status,Backlog,Staging,2026-05-05T03:00:00Z
+AUTOQ-4863,status,Staging,Code Review,2026-05-05T10:00:00Z
+AUTOQ-4864,status,Backlog,Staging,2026-05-05T16:45:00Z
+AUTOQ-4864,status,Staging,Code Review,2026-05-05T22:45:00Z
+AUTOQ-4864,status,Code Review,Staging,2026-05-06T01:45:00Z
+AUTOQ-4864,status,Staging,Code Review,2026-05-06T06:45:00Z
+AUTOQ-4864,status,Code Review,Done,2026-05-07T09:45:00Z
+AUTOQ-4865,status,Backlog,Staging,2026-05-05T20:30:00Z
+AUTOQ-4865,status,Staging,Dismissed,2026-05-06T00:30:00Z
+AUTOQ-4866,status,Backlog,Staging,2026-05-05T07:30:00Z
+AUTOQ-4866,status,Staging,Code Review,2026-05-05T11:30:00Z
+AUTOQ-4866,status,Code Review,Staging,2026-05-05T14:30:00Z
+AUTOQ-4866,status,Staging,Code Review,2026-05-05T17:30:00Z
+AUTOQ-4866,status,Code Review,Done,2026-05-06T19:30:00Z
+AUTOQ-4867,status,Backlog,Staging,2026-05-05T21:30:00Z
+AUTOQ-4867,status,Staging,Code Review,2026-05-06T02:30:00Z
+AUTOQ-4867,status,Code Review,Staging,2026-05-06T06:30:00Z
+AUTOQ-4867,status,Staging,Code Review,2026-05-06T09:30:00Z
+AUTOQ-4867,status,Code Review,Done,2026-05-07T14:30:00Z
+AUTOQ-4868,status,Backlog,Staging,2026-05-05T04:00:00Z
+AUTOQ-4868,status,Staging,Code Review,2026-05-05T13:00:00Z
+AUTOQ-4868,status,Code Review,Done,2026-05-07T00:00:00Z
+CLAIMS-4869,status,To Do,Staging,2026-05-05T16:45:00Z
+CLAIMS-4869,status,Staging,In Review,2026-05-05T22:45:00Z
+CLAIMS-4869,status,In Review,Accepted,2026-05-07T09:45:00Z
+CLAIMS-4870,status,To Do,Staging,2026-05-05T18:00:00Z
+CLAIMS-4870,status,Staging,In Review,2026-05-05T23:00:00Z
+CLAIMS-4870,status,In Review,Accepted,2026-05-07T04:00:00Z
+CLAIMS-4871,status,To Do,Staging,2026-05-05T22:45:00Z
+CLAIMS-4871,status,Staging,In Review,2026-05-06T08:45:00Z
+CLAIMS-4871,status,In Review,Staging,2026-05-06T13:45:00Z
+CLAIMS-4871,status,Staging,In Review,2026-05-06T18:45:00Z
+CLAIMS-4871,status,In Review,Accepted,2026-05-08T04:45:00Z
+CLAIMS-4872,status,To Do,Staging,2026-05-05T06:00:00Z
+CLAIMS-4872,status,Staging,In Review,2026-05-05T15:00:00Z
+CLAIMS-4872,status,In Review,Staging,2026-05-05T18:00:00Z
+CLAIMS-4872,status,Staging,In Review,2026-05-05T22:00:00Z
+CLAIMS-4872,status,In Review,Accepted,2026-05-06T20:00:00Z
+CLAIMS-4873,status,To Do,Staging,2026-05-04T19:15:00Z
+CLAIMS-4873,status,Staging,In Review,2026-05-05T03:15:00Z
+CLAIMS-4873,status,In Review,Accepted,2026-05-06T14:15:00Z
+CLAIMS-4874,status,To Do,Staging,2026-05-05T06:45:00Z
+CLAIMS-4874,status,Staging,In Review,2026-05-05T16:45:00Z
+CLAIMS-4874,status,In Review,Accepted,2026-05-06T18:45:00Z
+CLAIMS-4875,status,To Do,Staging,2026-05-04T20:30:00Z
+CLAIMS-4875,status,Staging,In Review,2026-05-05T06:30:00Z
+CLAIMS-4875,status,In Review,Accepted,2026-05-06T11:30:00Z
+MOB-4876,status,To Do,Staging,2026-05-19T14:30:00Z
+MOB-4876,status,Staging,In Review,2026-05-19T18:30:00Z
+MOB-4876,status,In Review,Done,2026-05-21T15:30:00Z
+MOB-4877,status,To Do,Staging,2026-05-18T15:15:00Z
+MOB-4877,status,Staging,In Review,2026-05-19T01:15:00Z
+MOB-4877,status,In Review,Done,2026-05-21T08:15:00Z
+MOB-4878,status,To Do,Staging,2026-05-19T19:45:00Z
+MOB-4878,status,Staging,Dismissed,2026-05-20T02:45:00Z
+MOB-4879,status,To Do,Staging,2026-05-19T09:45:00Z
+MOB-4879,status,Staging,In Review,2026-05-19T15:45:00Z
+MOB-4879,status,In Review,Done,2026-05-22T05:45:00Z
+MOB-4880,status,To Do,Staging,2026-05-19T23:00:00Z
+MOB-4880,status,Staging,In Review,2026-05-20T05:00:00Z
+MOB-4880,status,In Review,Done,2026-05-22T10:00:00Z
+MOB-4881,status,To Do,Staging,2026-05-19T22:45:00Z
+MOB-4881,status,Staging,In Review,2026-05-20T06:45:00Z
+MOB-4881,status,In Review,Done,2026-05-22T21:45:00Z
+MOB-4882,status,To Do,Staging,2026-05-19T06:15:00Z
+MOB-4882,status,Staging,In Review,2026-05-19T11:15:00Z
+MOB-4883,status,To Do,Staging,2026-05-19T04:15:00Z
+MOB-4883,status,Staging,In Review,2026-05-19T08:15:00Z
+MOB-4883,status,In Review,Done,2026-05-21T06:15:00Z
+MOB-4884,status,To Do,Staging,2026-05-19T20:30:00Z
+MOB-4884,status,Staging,In Review,2026-05-20T03:30:00Z
+MOB-4884,status,In Review,Done,2026-05-22T07:30:00Z
+MOB-4885,status,To Do,Staging,2026-05-19T21:15:00Z
+MOB-4885,status,Staging,In Review,2026-05-20T03:15:00Z
+MOB-4885,status,In Review,Done,2026-05-22T13:15:00Z
+AUTOQ-4886,status,Backlog,Staging,2026-05-19T19:15:00Z
+AUTOQ-4886,status,Staging,Code Review,2026-05-20T03:15:00Z
+AUTOQ-4886,status,Code Review,Done,2026-05-21T11:15:00Z
+AUTOQ-4887,status,Backlog,Staging,2026-05-19T01:45:00Z
+AUTOQ-4887,status,Staging,Code Review,2026-05-19T07:45:00Z
+AUTOQ-4887,status,Code Review,Staging,2026-05-19T12:45:00Z
+AUTOQ-4887,status,Staging,Code Review,2026-05-19T17:45:00Z
+AUTOQ-4887,status,Code Review,Done,2026-05-21T01:45:00Z
+AUTOQ-4888,status,Backlog,Staging,2026-05-18T21:30:00Z
+AUTOQ-4888,status,Staging,Code Review,2026-05-19T02:30:00Z
+AUTOQ-4889,status,Backlog,Staging,2026-05-19T14:15:00Z
+AUTOQ-4889,status,Staging,Code Review,2026-05-19T20:15:00Z
+AUTOQ-4889,status,Code Review,Done,2026-05-21T04:15:00Z
+AUTOQ-4890,status,Backlog,Staging,2026-05-19T13:30:00Z
+AUTOQ-4890,status,Staging,Code Review,2026-05-20T01:30:00Z
+AUTOQ-4891,status,Backlog,Staging,2026-05-19T04:15:00Z
+AUTOQ-4891,status,Staging,Code Review,2026-05-19T14:15:00Z
+AUTOQ-4891,status,Code Review,Done,2026-05-20T13:15:00Z
+AUTOQ-4892,status,Backlog,Staging,2026-05-18T13:00:00Z
+AUTOQ-4892,status,Staging,Code Review,2026-05-18T19:00:00Z
+AUTOQ-4892,status,Code Review,Staging,2026-05-18T23:00:00Z
+AUTOQ-4892,status,Staging,Code Review,2026-05-19T04:00:00Z
+AUTOQ-4892,status,Code Review,Done,2026-05-20T04:00:00Z
+AUTOQ-4893,status,Backlog,Staging,2026-05-19T00:15:00Z
+AUTOQ-4893,status,Staging,Code Review,2026-05-19T08:15:00Z
+AUTOQ-4893,status,Code Review,Done,2026-05-20T11:15:00Z
+AUTOQ-4894,status,Backlog,Staging,2026-05-19T05:45:00Z
+AUTOQ-4894,status,Staging,Code Review,2026-05-19T09:45:00Z
+AUTOQ-4894,status,Code Review,Done,2026-05-20T19:45:00Z
+CLAIMS-4895,status,To Do,Staging,2026-05-19T07:45:00Z
+CLAIMS-4895,status,Staging,In Review,2026-05-19T12:45:00Z
+CLAIMS-4895,status,In Review,Accepted,2026-05-20T20:45:00Z
+CLAIMS-4896,status,To Do,Staging,2026-05-20T03:30:00Z
+CLAIMS-4896,status,Staging,In Review,2026-05-20T09:30:00Z
+CLAIMS-4896,status,In Review,Accepted,2026-05-21T05:30:00Z
+CLAIMS-4897,status,To Do,Staging,2026-05-18T14:45:00Z
+CLAIMS-4897,status,Staging,In Review,2026-05-18T22:45:00Z
+CLAIMS-4897,status,In Review,Staging,2026-05-19T02:45:00Z
+CLAIMS-4897,status,Staging,In Review,2026-05-19T05:45:00Z
+CLAIMS-4897,status,In Review,Accepted,2026-05-20T07:45:00Z
+CLAIMS-4898,status,To Do,Staging,2026-05-18T16:00:00Z
+CLAIMS-4898,status,Staging,In Review,2026-05-19T00:00:00Z
+CLAIMS-4898,status,In Review,Staging,2026-05-19T04:00:00Z
+CLAIMS-4898,status,Staging,In Review,2026-05-19T07:00:00Z
+CLAIMS-4898,status,In Review,Accepted,2026-05-20T05:00:00Z
+CLAIMS-4899,status,To Do,Staging,2026-05-18T23:15:00Z
+CLAIMS-4899,status,Staging,In Review,2026-05-19T07:15:00Z
+CLAIMS-4899,status,In Review,Staging,2026-05-19T11:15:00Z
+CLAIMS-4899,status,Staging,In Review,2026-05-19T14:15:00Z
+CLAIMS-4899,status,In Review,Accepted,2026-05-20T18:15:00Z
+CLAIMS-4900,status,To Do,Staging,2026-05-19T08:00:00Z
+CLAIMS-4900,status,Staging,In Review,2026-05-19T18:00:00Z
+CLAIMS-4900,status,In Review,Accepted,2026-05-21T02:00:00Z
+CLAIMS-4901,status,To Do,Staging,2026-05-18T12:30:00Z
+CLAIMS-4901,status,Staging,In Review,2026-05-18T21:30:00Z
+CLAIMS-4901,status,In Review,Accepted,2026-05-20T01:30:00Z
+CLAIMS-4902,status,To Do,Staging,2026-05-18T20:15:00Z
+CLAIMS-4902,status,Staging,In Review,2026-05-19T02:15:00Z
+CLAIMS-4902,status,In Review,Accepted,2026-05-20T05:15:00Z
+MOB-4903,status,To Do,Staging,2026-06-02T14:00:00Z
+MOB-4903,status,Staging,In Review,2026-06-03T01:00:00Z
+MOB-4904,status,To Do,Staging,2026-06-01T23:45:00Z
+MOB-4904,status,Staging,In Review,2026-06-02T08:45:00Z
+MOB-4904,status,In Review,Done,2026-06-04T20:45:00Z
+MOB-4905,status,To Do,Staging,2026-06-02T19:45:00Z
+MOB-4905,status,Staging,In Review,2026-06-03T00:45:00Z
+MOB-4905,status,In Review,Done,2026-06-05T11:45:00Z
+MOB-4906,status,To Do,Staging,2026-06-02T09:30:00Z
+MOB-4906,status,Staging,In Review,2026-06-02T19:30:00Z
+MOB-4906,status,In Review,Done,2026-06-05T00:30:00Z
+MOB-4907,status,To Do,Staging,2026-06-01T12:00:00Z
+MOB-4907,status,Staging,In Review,2026-06-01T22:00:00Z
+MOB-4907,status,In Review,Done,2026-06-03T19:00:00Z
+MOB-4908,status,To Do,Staging,2026-06-02T08:15:00Z
+MOB-4908,status,Staging,In Review,2026-06-02T13:15:00Z
+MOB-4908,status,In Review,Done,2026-06-04T23:15:00Z
+MOB-4909,status,To Do,Staging,2026-06-01T19:00:00Z
+MOB-4909,status,Staging,In Review,2026-06-02T03:00:00Z
+MOB-4909,status,In Review,Staging,2026-06-02T07:00:00Z
+MOB-4909,status,Staging,In Review,2026-06-02T09:00:00Z
+MOB-4909,status,In Review,Done,2026-06-04T08:00:00Z
+MOB-4910,status,To Do,Staging,2026-06-02T21:00:00Z
+MOB-4910,status,Staging,In Review,2026-06-03T05:00:00Z
+MOB-4910,status,In Review,Done,2026-06-05T05:00:00Z
+MOB-4911,status,To Do,Staging,2026-06-02T19:30:00Z
+MOB-4911,status,Staging,Dismissed,2026-06-03T00:30:00Z
+MOB-4912,status,To Do,Staging,2026-06-02T19:45:00Z
+MOB-4912,status,Staging,In Review,2026-06-03T01:45:00Z
+AUTOQ-4913,status,Backlog,Staging,2026-06-03T01:30:00Z
+AUTOQ-4913,status,Staging,Dismissed,2026-06-03T05:30:00Z
+AUTOQ-4914,status,Backlog,Staging,2026-06-01T17:00:00Z
+AUTOQ-4914,status,Staging,Code Review,2026-06-02T00:00:00Z
+AUTOQ-4914,status,Code Review,Staging,2026-06-02T05:00:00Z
+AUTOQ-4914,status,Staging,Code Review,2026-06-02T08:00:00Z
+AUTOQ-4914,status,Code Review,Done,2026-06-03T17:00:00Z
+AUTOQ-4915,status,Backlog,Staging,2026-06-02T14:00:00Z
+AUTOQ-4915,status,Staging,Code Review,2026-06-02T20:00:00Z
+AUTOQ-4915,status,Code Review,Done,2026-06-03T20:00:00Z
+AUTOQ-4916,status,Backlog,Staging,2026-06-01T17:45:00Z
+AUTOQ-4916,status,Staging,Code Review,2026-06-02T03:45:00Z
+AUTOQ-4916,status,Code Review,Staging,2026-06-02T06:45:00Z
+AUTOQ-4916,status,Staging,Code Review,2026-06-02T08:45:00Z
+AUTOQ-4916,status,Code Review,Done,2026-06-03T14:45:00Z
+AUTOQ-4917,status,Backlog,Staging,2026-06-01T13:30:00Z
+AUTOQ-4917,status,Staging,Code Review,2026-06-01T21:30:00Z
+AUTOQ-4917,status,Code Review,Done,2026-06-03T09:30:00Z
+AUTOQ-4918,status,Backlog,Staging,2026-06-02T02:00:00Z
+AUTOQ-4918,status,Staging,Code Review,2026-06-02T06:00:00Z
+AUTOQ-4918,status,Code Review,Staging,2026-06-02T10:00:00Z
+AUTOQ-4918,status,Staging,Code Review,2026-06-02T13:00:00Z
+AUTOQ-4918,status,Code Review,Done,2026-06-03T22:00:00Z
+AUTOQ-4919,status,Backlog,Staging,2026-06-01T13:15:00Z
+AUTOQ-4919,status,Staging,Code Review,2026-06-01T19:15:00Z
+AUTOQ-4919,status,Code Review,Staging,2026-06-01T23:15:00Z
+AUTOQ-4919,status,Staging,Code Review,2026-06-02T01:15:00Z
+AUTOQ-4919,status,Code Review,Done,2026-06-03T02:15:00Z
+AUTOQ-4920,status,Backlog,Staging,2026-06-01T18:15:00Z
+AUTOQ-4920,status,Staging,Code Review,2026-06-01T23:15:00Z
+AUTOQ-4920,status,Code Review,Done,2026-06-03T07:15:00Z
+CLAIMS-4921,status,To Do,Staging,2026-06-02T05:30:00Z
+CLAIMS-4921,status,Staging,In Review,2026-06-02T10:30:00Z
+CLAIMS-4921,status,In Review,Accepted,2026-06-03T11:30:00Z
+CLAIMS-4922,status,To Do,Staging,2026-06-02T17:45:00Z
+CLAIMS-4922,status,Staging,In Review,2026-06-02T23:45:00Z
+CLAIMS-4922,status,In Review,Accepted,2026-06-04T01:45:00Z
+CLAIMS-4923,status,To Do,Staging,2026-06-02T04:45:00Z
+CLAIMS-4923,status,Staging,In Review,2026-06-02T09:45:00Z
+CLAIMS-4923,status,In Review,Accepted,2026-06-03T17:45:00Z
+CLAIMS-4924,status,To Do,Staging,2026-06-01T23:15:00Z
+CLAIMS-4924,status,Staging,In Review,2026-06-02T03:15:00Z
+CLAIMS-4924,status,In Review,Accepted,2026-06-03T14:15:00Z
+CLAIMS-4925,status,To Do,Staging,2026-06-03T01:15:00Z
+CLAIMS-4925,status,Staging,In Review,2026-06-03T11:15:00Z
+CLAIMS-4925,status,In Review,Accepted,2026-06-04T18:15:00Z
+CLAIMS-4926,status,To Do,Staging,2026-06-02T15:00:00Z
+CLAIMS-4926,status,Staging,In Review,2026-06-03T01:00:00Z
+CLAIMS-4927,status,To Do,Staging,2026-06-02T05:00:00Z
+CLAIMS-4927,status,Staging,Dismissed,2026-06-02T13:00:00Z
+CLAIMS-4928,status,To Do,Staging,2026-06-01T18:45:00Z
+CLAIMS-4928,status,Staging,In Review,2026-06-02T02:45:00Z
+CLAIMS-4928,status,In Review,Accepted,2026-06-03T00:45:00Z
+CLAIMS-4929,status,To Do,Staging,2026-06-02T00:30:00Z
+CLAIMS-4929,status,Staging,In Review,2026-06-02T08:30:00Z
+CLAIMS-4929,status,In Review,Accepted,2026-06-03T20:30:00Z
+CLAIMS-4930,status,To Do,Staging,2026-06-02T09:15:00Z
+CLAIMS-4930,status,Staging,In Review,2026-06-02T14:15:00Z
+CLAIMS-4930,status,In Review,Accepted,2026-06-03T14:15:00Z
+MOB-4931,status,To Do,Staging,2026-06-16T20:45:00Z
+MOB-4931,status,Staging,In Review,2026-06-17T05:45:00Z
+MOB-4932,status,To Do,Staging,2026-06-16T20:45:00Z
+MOB-4932,status,Staging,In Review,2026-06-17T00:45:00Z
+MOB-4932,status,In Review,Staging,2026-06-17T04:45:00Z
+MOB-4932,status,Staging,In Review,2026-06-17T06:45:00Z
+MOB-4932,status,In Review,Done,2026-06-19T12:45:00Z
+MOB-4933,status,To Do,Staging,2026-06-16T08:00:00Z
+MOB-4933,status,Staging,In Review,2026-06-16T15:00:00Z
+MOB-4933,status,In Review,Done,2026-06-19T04:00:00Z
+MOB-4934,status,To Do,Staging,2026-06-15T23:30:00Z
+MOB-4934,status,Staging,In Review,2026-06-16T03:30:00Z
+MOB-4934,status,In Review,Done,2026-06-18T08:30:00Z
+MOB-4935,status,To Do,Staging,2026-06-16T21:15:00Z
+MOB-4935,status,Staging,In Review,2026-06-17T05:15:00Z
+MOB-4935,status,In Review,Staging,2026-06-17T08:15:00Z
+MOB-4935,status,Staging,In Review,2026-06-17T12:15:00Z
+MOB-4935,status,In Review,Done,2026-06-19T17:15:00Z
+MOB-4936,status,To Do,Staging,2026-06-15T17:30:00Z
+MOB-4936,status,Staging,In Review,2026-06-16T02:30:00Z
+MOB-4936,status,In Review,Done,2026-06-18T08:30:00Z
+MOB-4937,status,To Do,Staging,2026-06-15T21:30:00Z
+MOB-4937,status,Staging,In Review,2026-06-16T03:30:00Z
+MOB-4937,status,In Review,Done,2026-06-18T07:30:00Z
+MOB-4938,status,To Do,Staging,2026-06-16T12:15:00Z
+MOB-4938,status,Staging,In Review,2026-06-16T19:15:00Z
+MOB-4938,status,In Review,Done,2026-06-19T06:15:00Z
+AUTOQ-4939,status,Backlog,Staging,2026-06-16T08:45:00Z
+AUTOQ-4939,status,Staging,Code Review,2026-06-16T13:45:00Z
+AUTOQ-4939,status,Code Review,Done,2026-06-17T11:45:00Z
+AUTOQ-4940,status,Backlog,Staging,2026-06-16T22:00:00Z
+AUTOQ-4940,status,Staging,Code Review,2026-06-17T04:00:00Z
+AUTOQ-4941,status,Backlog,Staging,2026-06-16T01:45:00Z
+AUTOQ-4941,status,Staging,Code Review,2026-06-16T10:45:00Z
+AUTOQ-4941,status,Code Review,Done,2026-06-17T13:45:00Z
+AUTOQ-4942,status,Backlog,Staging,2026-06-16T03:15:00Z
+AUTOQ-4942,status,Staging,Dismissed,2026-06-16T11:15:00Z
+AUTOQ-4943,status,Backlog,Staging,2026-06-16T18:45:00Z
+AUTOQ-4943,status,Staging,Code Review,2026-06-17T02:45:00Z
+AUTOQ-4943,status,Code Review,Staging,2026-06-17T07:45:00Z
+AUTOQ-4943,status,Staging,Code Review,2026-06-17T10:45:00Z
+AUTOQ-4943,status,Code Review,Done,2026-06-18T12:45:00Z
+AUTOQ-4944,status,Backlog,Staging,2026-06-16T20:30:00Z
+AUTOQ-4944,status,Staging,Code Review,2026-06-17T06:30:00Z
+AUTOQ-4944,status,Code Review,Done,2026-06-18T05:30:00Z
+AUTOQ-4945,status,Backlog,Staging,2026-06-16T06:45:00Z
+AUTOQ-4945,status,Staging,Code Review,2026-06-16T10:45:00Z
+AUTOQ-4945,status,Code Review,Done,2026-06-17T13:45:00Z
+AUTOQ-4946,status,Backlog,Staging,2026-06-16T15:00:00Z
+AUTOQ-4946,status,Staging,Code Review,2026-06-16T19:00:00Z
+AUTOQ-4946,status,Code Review,Done,2026-06-18T02:00:00Z
+AUTOQ-4947,status,Backlog,Staging,2026-06-16T10:15:00Z
+AUTOQ-4947,status,Staging,Code Review,2026-06-16T19:15:00Z
+AUTOQ-4947,status,Code Review,Done,2026-06-17T19:15:00Z
+CLAIMS-4948,status,To Do,Staging,2026-06-15T15:30:00Z
+CLAIMS-4948,status,Staging,In Review,2026-06-16T00:30:00Z
+CLAIMS-4948,status,In Review,Staging,2026-06-16T05:30:00Z
+CLAIMS-4948,status,Staging,In Review,2026-06-16T07:30:00Z
+CLAIMS-4948,status,In Review,Accepted,2026-06-17T12:30:00Z
+CLAIMS-4949,status,To Do,Staging,2026-06-16T01:45:00Z
+CLAIMS-4949,status,Staging,In Review,2026-06-16T11:45:00Z
+CLAIMS-4949,status,In Review,Accepted,2026-06-17T22:45:00Z
+CLAIMS-4950,status,To Do,Staging,2026-06-16T05:15:00Z
+CLAIMS-4950,status,Staging,In Review,2026-06-16T11:15:00Z
+CLAIMS-4950,status,In Review,Accepted,2026-06-17T14:15:00Z
+CLAIMS-4951,status,To Do,Staging,2026-06-16T23:30:00Z
+CLAIMS-4951,status,Staging,Dismissed,2026-06-17T05:30:00Z
+CLAIMS-4952,status,To Do,Staging,2026-06-15T12:45:00Z
+CLAIMS-4952,status,Staging,In Review,2026-06-15T18:45:00Z
+CLAIMS-4952,status,In Review,Accepted,2026-06-16T16:45:00Z
+CLAIMS-4953,status,To Do,Staging,2026-06-16T09:15:00Z
+CLAIMS-4953,status,Staging,In Review,2026-06-16T19:15:00Z
+CLAIMS-4953,status,In Review,Accepted,2026-06-17T20:15:00Z
+CLAIMS-4954,status,To Do,Staging,2026-06-16T00:15:00Z
+CLAIMS-4954,status,Staging,In Review,2026-06-16T04:15:00Z
+CLAIMS-4954,status,In Review,Staging,2026-06-16T08:15:00Z
+CLAIMS-4954,status,Staging,In Review,2026-06-16T11:15:00Z
+CLAIMS-4954,status,In Review,Accepted,2026-06-17T08:15:00Z
+CLAIMS-4955,status,To Do,Staging,2026-06-16T05:45:00Z
+CLAIMS-4955,status,Staging,In Review,2026-06-16T15:45:00Z
+CLAIMS-4955,status,In Review,Accepted,2026-06-17T17:45:00Z
+CLAIMS-4956,status,To Do,Staging,2026-06-16T10:30:00Z
+CLAIMS-4956,status,Staging,In Review,2026-06-16T17:30:00Z
+CLAIMS-4956,status,In Review,Staging,2026-06-16T22:30:00Z
+CLAIMS-4956,status,Staging,In Review,2026-06-17T03:30:00Z
+CLAIMS-4956,status,In Review,Accepted,2026-06-18T09:30:00Z
+CLAIMS-4957,status,To Do,Staging,2026-06-16T09:30:00Z
+CLAIMS-4957,status,Staging,In Review,2026-06-16T16:30:00Z
+CLAIMS-4957,status,In Review,Staging,2026-06-16T19:30:00Z
+CLAIMS-4957,status,Staging,In Review,2026-06-16T23:30:00Z
+CLAIMS-4957,status,In Review,Accepted,2026-06-18T05:30:00Z
