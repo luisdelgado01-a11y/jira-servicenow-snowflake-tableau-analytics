@@ -4,11 +4,11 @@ An end-to-end delivery analytics case study that mirrors a real enterprise repor
 
 > Companion to my Bank Churn Risk Engine.
 >
-> Same philosophy: the value isn't the query or the model — it's translating outputs into decisions.
+> Same philosophy: the value isn't the query or the model. It's translating outputs into decisions.
 
 **Stack:** Jira · ServiceNow · Clarity (PPM) → Snowflake → SQL → Tableau
 
-**Skills demonstrated:** Data Modeling · SQL (CTEs, Window Functions, Date Math) · ETL/Transformation · Metric Definition · Changelog-Based Event Analysis · Executive Reporting · Data Governance
+**Skills Demonstrated:** Data Modeling · SQL (CTEs, Window Functions, Date Math) · ETL/Transformation · Metric Definition · Changelog-Based Event Analysis · Executive Reporting · Data Governance
 
 ---
 
@@ -16,7 +16,7 @@ An end-to-end delivery analytics case study that mirrors a real enterprise repor
 
 A VP asked:
 
-*"Which squads are actually fast versus just busy, where does work get stuck, and is quality holding as we push volume — tied to the projects that matter?"*
+*"Which squads are actually fast versus just busy, where does work get stuck, and is quality holding as we push volume while still focusing on the projects that matter?"*
 
 No detailed specification existed. The analyst's job was to define the metrics, establish the business rules, and build the answer.
 
@@ -24,42 +24,34 @@ No detailed specification existed. The analyst's job was to define the metrics, 
 
 ## Architecture
 
+```text
 Jira + ServiceNow + Clarity
-
-↓
-
-Snowflake
-
-↓
-
-SQL Transform Layer
-
-↓
-
-vw_squad_delivery
-
-↓
-
-Tableau Dashboard
-
-↓
-
-Executive Decisions
+            ↓
+        Snowflake
+            ↓
+ SQL Transform Layer
+            ↓
+   vw_squad_delivery
+            ↓
+    Tableau Dashboard
+            ↓
+   Executive Decisions
+```
 
 ---
 
 ## What I Built (End to End)
 
-| Stage                         | Artifact                                                                                               |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
-| Synthetic source systems      | `01_source_data/` — Jira issues + changelog, ServiceNow incidents, Clarity projects (messy on purpose) |
-| Transformation layer          | `02_sql/transforms.sql` — Snowflake SQL deriving cycle time, time-in-status, rework, and project joins |
-| Modeled view + dashboard data | `03_tableau/vw_squad_delivery.csv` and summary extracts                                                |
-| Executive readout             | `04_executive_readout/Executive_Readout.pdf` — one-page findings and recommendations                   |
-| Architecture                  | `05_architecture/architecture.png` — end-to-end data flow                                              |
-| Slide deck                    | `07_slide_deck/USAA_Squad_Delivery_Deck.pptx` — stakeholder presentation with native charts            |
-| Governance                    | `06_docs/` — metric definitions, data dictionary, and analysis summary                                 |
-| Reproducible scripts          | `scripts/` — regenerate data and execute transforms end-to-end                                         |
+| Stage                         | Folder                  | Description                                                                                                            |
+| ----------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Synthetic Source Systems      | `01_source_data/`       | Jira issues, Jira changelog history, ServiceNow incidents, and Clarity projects with realistic data quality challenges |
+| Transformation Layer          | `02_sql/`               | Snowflake SQL deriving cycle time, time-in-status, rework, bottlenecks, and project-level joins                        |
+| Modeled View + Dashboard Data | `03_tableau/`           | Dashboard-ready extracts and modeled analytics views                                                                   |
+| Executive Readout             | `04_executive_readout/` | One-page findings, business implications, and recommendations                                                          |
+| Architecture Diagram          | `05_architecture/`      | End-to-end data flow and ownership boundaries                                                                          |
+| Governance Documentation      | `06_docs/`              | Metric definitions, data dictionary, and analysis summary                                                              |
+| Stakeholder Presentation      | `07_slide_deck/`        | Executive-ready slide deck summarizing findings and recommendations                                                    |
+| Reproducible Scripts          | `scripts/`              | Regenerate source data and execute transformations end-to-end                                                          |
 
 ---
 
@@ -72,11 +64,14 @@ A ticket's current record only shows that it is "Done." The duration lives in th
 ```sql
 WITH transitions AS (
   SELECT issue_key,
-    MIN(CASE WHEN to_status_canon='Staging' THEN changed_at END) AS started_at,
-    MIN(CASE WHEN to_status_canon='Done' THEN changed_at END) AS done_at
+         MIN(CASE WHEN to_status_canon = 'Staging'
+                  THEN changed_at END) AS started_at,
+         MIN(CASE WHEN to_status_canon = 'Done'
+                  THEN changed_at END) AS done_at
   FROM stg_changelog
   GROUP BY issue_key
 )
+
 SELECT issue_key,
        DATEDIFF('hour', started_at, done_at) AS cycle_time_hours
 FROM transitions
@@ -89,9 +84,11 @@ WHERE done_at IS NOT NULL;
 
 ### 1. Review Is the Bottleneck, Not Coding
 
-~29 hours spent in review versus ~6 hours in active work (~82% of workflow delay).
+Work spent approximately 29 hours in review versus approximately 6 hours in active development, representing roughly 82% of workflow delay.
 
 **Recommendation:** Increase reviewer capacity or establish review SLAs before adding engineering headcount.
+
+---
 
 ### 2. Throughput Gains Came at the Expense of Quality
 
@@ -99,9 +96,11 @@ The sprint with the largest increase in output also experienced rework rates exc
 
 **Recommendation:** Implement quality guardrails before scaling delivery volume.
 
+---
+
 ### 3. Priority Work Is Being Protected
 
-Priority projects averaged ~38 hours cycle time versus ~61 hours for non-priority work.
+Priority projects averaged approximately 38 hours of cycle time versus approximately 61 hours for non-priority work.
 
 **Recommendation:** Report priority and non-priority delivery separately to avoid misleading averages.
 
@@ -114,9 +113,9 @@ python scripts/generate_data.py
 python scripts/run_transforms.py
 ```
 
-Reconciliation gate:
+### Reconciliation Gate
 
-* Modeled rows = Source Issues (157 = 157)
+* Modeled Rows = Source Issues (157 = 157)
 * Completed Tickets = Distinct Done Transitions (132 = 132)
 
 All metrics reconcile back to source data.
@@ -125,11 +124,27 @@ All metrics reconcile back to source data.
 
 ---
 
+## Deliverables
+
+* Synthetic Jira, ServiceNow, and Clarity source systems
+* Snowflake SQL transformation layer
+* Modeled analytics view (`vw_squad_delivery`)
+* Tableau dashboard extracts
+* Executive readout
+* Architecture diagram
+* Metric definitions
+* Data dictionary
+* Analysis summary
+* Stakeholder presentation deck
+* Reproducible scripts
+
+---
+
 ## Project Philosophy
 
 Dashboards are not the deliverable.
 
-The deliverable is a decision.
+Decisions are the deliverable.
 
 This project demonstrates how operational data from multiple systems can be transformed into trusted metrics, executive insights, and actionable recommendations.
 
